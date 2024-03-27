@@ -1,0 +1,241 @@
+.navbar{
+    text-align: center;
+}
+.nav-link{
+    
+    color: whitesmoke !important;
+    font-size: large;
+    font-style: normal;
+    ;
+}
+
+.navbar-brand{
+    color: whitesmoke !important;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.nav-link:hover{
+    
+    text-decoration: underline aqua!important;
+}
+.btn{
+    border-color: whitesmoke !important;
+    background-color: aqua;
+    color: black; 
+}
+.navbar-toggler-icon{
+    color:whitesmoke !important;
+}
+
+.home-img{
+    margin-top: 15%;
+    height: 75%;;
+    width: 75%;
+   border-radius: 50%;
+   box-shadow: 10px 10px 10px aqua;
+    
+    
+    
+}
+
+
+.row{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    background-color: black;
+    background-color: black;
+    height: 90vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    width: 100vw !important;
+}
+.fa-solid{
+    color: whitesmoke;
+}
+.name
+{
+ 
+    color: aqua;
+}
+.social-buttons {
+    position: absolute;
+    margin-top: 10%;
+    left: 1rem;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+  }
+.social-buttons a{
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    color:whitesmoke;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 8px;
+  }
+  
+  .social-buttons a:hover i{
+    background: linear-gradient(45deg,aqua,aqua );
+   
+    transform: scale(2.2);
+  }
+  .work{
+    
+justify-content: center;
+align-items: center;
+    height: 120vh;
+    background-color: rgb(163, 158, 158);
+    width: 100vw !important;
+}
+.card-img-top{
+    height: 20vh;
+    width: 100%;
+}
+.text{
+    color: black;
+    padding-top: 20px;
+    padding-left: 40%;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card{
+    transition: all ease .5s;
+    background-color: black;
+    color: whitesmoke;
+   
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px  10px aqua ;
+    margin-top: -2rem;
+    rotate:0deg;
+}
+.services-cols{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.badge{
+    background-color: black;
+    color: whitesmoke;
+    font-size: medium
+}
+
+.img-fluid{
+border-radius: 50%;
+   box-shadow: 10px 10px 10px aqua;
+}
+.about{
+    height: 90vh;
+    width: 100vw;
+    background-color: ghostwhite;
+}
+.skills{
+    
+    padding-bottom: 5%;
+    background-color: black;
+   
+    color: whitesmoke;
+}
+.center {
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+   
+   
+}
+
+
+/* skillbar languages */
+.skillbar-html p{
+    color: #fff;
+    text-align: left;
+    padding: 0;
+    font-weight: bold;
+   
+}
+
+
+.skillbar-css p{
+    color: #fff;
+    text-align: left;
+    padding: 0;
+    font-weight: bold;
+}
+
+.skill_percentage{
+    background-color: #262626;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #0fffb7;
+    border-radius: 10px;
+
+}
+.skill_level{
+    background-color:aqua;
+    width: 100%;
+    height: 10px;
+    border-radius: 6px;
+}
+
+.contact{
+background-color: #645f5f;
+color: black;
+height: 70vh;
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+
+@media screen and (max-width:720px) {
+    .home{
+        height: 100%;
+    }
+    .work{
+        height: 100%;
+    }
+    .about{
+        height: 100%;
+        width: 100%;
+    }
+    .social-buttons {
+       
+        margin-top: 20%;
+        left: 1rem;
+        top:1rem;
+        display: flex;
+        flex-direction: column;
+      }
+      .skills{
+        height: 100%;
+        width: 100%;
+       
+      }
+      .skillbar-html{
+        height: 100%;
+        width: 100%;
+      }
+    .contact{
+        height: 100%;
+        width: 100%;
+
+    }
+}
